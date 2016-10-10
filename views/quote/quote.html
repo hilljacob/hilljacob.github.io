@@ -1,0 +1,46 @@
+<section class="qimage" ng-controller="quoteCtrl">
+<jake-no-nav></jake-no-nav>
+            <div class="quote-date">
+                  <h1>Quotes for {{time.date}}</h1>
+            </div>
+  <div class="quote-holder">
+        <div ng-style="funnyImage" class="quote-box" id="top-left" ng-click="getQuote(funnyUrl)">
+            <p class="q-title" id="funny">Funny Quote</p>
+            <!-- <h1>{{funny.category}}</h1> -->
+            <h1>{{funny.quote}}</h1>
+            <h2>{{funny.author}}</h2>
+            </div>
+        <div ng-style="spotrsImage" class="quote-box" id="top-right" ng-click="getQuote(sportsUrl)">
+          <p class="q-title" id="sports">Sports Quote</p>
+            <!-- <h1>{{sports.category}}</h1> -->
+            <h1>{{sports.quote}}</h1>
+            <h2>{{sports.author}}</h2>
+            </div>
+        <div ng-style="inspireImage" class="quote-box" id="bottom-left" ng-click="getQuote(inspireUrl)">
+          <p class="q-title" id="inspire">Inspiring Quote</p>
+            <!-- <h1>{{inspire.category}}</h1> -->
+            <h1>{{inspire.quote}}</h1>
+            <h2>{{inspire.author}}</h2>
+            </div>
+        <div ng-style="loveImage" class="quote-box" id="bottom-right" ng-click="getQuote(loveUrl)">
+          <p class="q-title" id="love">Love Quote</p>
+            <!-- <h1>{{love.category}}</h1> -->
+            <h1>{{love.quote}}</h1>
+            <h2>{{love.author}}</h2>
+            </div>
+  </div>
+  <p class="saidso">Quotes from <a href="https://theysaidso.com" style="color: white">theysaidso.com</a></p>
+</section>
+
+<!-- <h1>{{quote.quote}}</h1> -->
+<!-- <div>
+      <h1>{{quote.category}}</h1>
+      <img src="{{quote.background}}" alt="Quote Background" />
+      <h1>{{quote.quote}}</h1>
+      <h2>{{quote.author}} {{quote.date}}</h2>
+</div> -->
+
+
+<!-- <div class="modalContainer"
+  ng-style="{'background-image': 'url(' + words.background + ')'}"> -->
+    <!-- <img src="{{words.background}}" alt="Quote Background" /> -->

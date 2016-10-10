@@ -1,0 +1,30 @@
+<section class="mimage" ng-controller="movieCtrl">
+<jake-no-nav></jake-no-nav>
+
+<div class="movie-box">
+    <!-- insert search directive here -->
+    <form ng-click="addPlus(movieTitle); showtext(movieInfo(movie))">
+    <div  id="sub">
+  				<input class="search-bar" type="text" placeholder="Enter Movie Title Here!" ng-model="movieTitle">
+          <input type="submit" style="display:none;"><i class="fa fa-search fa-3x" aria-hidden="true"></i></input>
+    </div>
+
+
+    <!-- <div class="s-button" ng-click="addPlus(movieTitle); showtext(movieInfo(movie))" ><i class="fa fa-search fa-3x" aria-hidden="true"></i></div> -->
+    </form>
+
+    <div class="movie">
+        <img class="movie-pic"src="{{movie.Poster}}" ng-if='toggle'/>
+          <div class="movie-info" ng-hide="please">
+            <h1><p id="main-title" ng-model="movie">{{movie.Title}}</p></h1>
+            <h3><span class="index">Release Date: </span>{{movie.Released}}</h3>
+            <h3><span class="index">Movie Rated: </span>{{movie.Rated}}</h3>
+            <h3><span class="index">Imdb Rating: </span>{{movie.imdbRating}}</h3>
+            <h3><span class="index">Director: </span>{{movie.Director}}</h3>
+            <h3><span class="index">Genre: </span>{{movie.Genre}}</h2>
+            <h2><span class="index">Actors: </span>{{movie.Actors}}</h2>
+            <h2><span class="index">Movie.Plot: </span>{{movie.Plot}}</h2>
+          </div>
+    </div>
+</div>
+</section>

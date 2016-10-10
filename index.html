@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="jakeNo">
+  <head>
+    <meta charset="utf-8">
+    <title>Jake's No Server</title>
+    <!-- rest window size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css Links -->
+    <link href="reset.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="directives/directives.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  </head>
+
+  <body>
+        <!-- header is inside views -->
+
+        <!-- 3 views for the body -->
+      <ui-view>Wait For It....</ui-view>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+		<script src="app.js"></script>
+    <script src="views/home/homeCtrl.js"></script>
+    <script src="views/movie/movieCtrl.js"></script>
+    <script src="views/quote/quoteCtrl.js"></script>
+    <script src="views/movie/movieServ.js"></script>
+    <script src="views/quote/quoteServ.js"></script>
+    <script src="directives/headerDir.js"></script>
+  </body>
+</html>
