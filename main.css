@@ -166,7 +166,8 @@ body{
   text-shadow: white 0.1em 0.1em 0.2em;
 }
 .himage{
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   background-image: url(https://hd.unsplash.com/photo-1432821596592-e2c18b78144f);
   background-repeat: no-repeat;
   background-position: center;
