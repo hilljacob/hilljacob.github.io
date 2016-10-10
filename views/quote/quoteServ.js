@@ -1,7 +1,7 @@
 angular.module('jakeNo').service('quoteServ', function($http){
 
   // quote of the day api
-  var mainQod = 'http://quotes.rest/qod.json'
+  var mainQod = 'https://quotes.rest/qod.json'
   //var funny = '?category=funny', inspire = '?category=inspire', love ='?category=love', sports = '?category=sports';
   this.getQ = function(){
       return $http({
