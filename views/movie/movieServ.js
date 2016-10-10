@@ -1,7 +1,7 @@
 angular.module('jakeNo').service('movieServ', function($http){
 
   // movie searching api
-var startUrl ='http://www.omdbapi.com/?t=';
+var startUrl ='https://www.omdbapi.com/?t=';
 var endUrl = '&y=&plot=short&r=json';
 
 //get movie searching Api
