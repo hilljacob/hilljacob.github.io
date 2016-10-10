@@ -23,6 +23,7 @@ body{
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
+  max-width: 100vw;
 }
 .quote-box {
   height: 45vh;
