@@ -236,5 +236,9 @@ body{
     text-align: center;
     max-width: 100vw;
     align-items: center;
-}
+  }
+  .quote-box{
+    height: 60vh;
+    width: 60vw;
+  }
 }
