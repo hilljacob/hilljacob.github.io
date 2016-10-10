@@ -6,6 +6,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 100%;
   min-height: 100vh;
 }
 .quote-date{
@@ -26,7 +27,7 @@ body{
 .quote-box {
   height: 45vh;
   width: 45vw;
-  min-width: 320px;
+  min-width: 310px;
   margin-top: 40px;
   border-radius: 20px;
   border: 2px solid black;
