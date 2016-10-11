@@ -140,7 +140,7 @@ body{
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
   /*height: 66vh;*/
-  min-height: 66vh;
+  min-height: 40vh;
   /*width: 405px;*/
   max-width: 405px;
   min-width: 310px;
